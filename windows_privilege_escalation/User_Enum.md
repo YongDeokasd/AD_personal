@@ -1,4 +1,9 @@
 ## Windows Version and Configuration
+로그인 중 유저 확인
+- (Get-ciminstance -classname win32_computersystem).username
+현재 컴퓨터 내 로그인 세션 확인
+- query user
+
 - Windows version
 Systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
 
