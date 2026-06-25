@@ -2,3 +2,7 @@
 ipconfig /all
 Get-NetIPConfiguration | ft InterfaceAlias, InterfaceDescription, IPv4Address
 Get-DnsClientServerAddress -AddressFamily IPv4 | ft
+
+프로세스 ID 확인
+netstat -anot
+ps 로 프로세스 확인
